@@ -28,6 +28,18 @@ The code component for the IOT project, that shows the creation of MVP for an ap
 
 - Docker: Containerization platform used to package the application and its dependencies, ensuring consistent deployment across different environments.
 
+## Deployment
+This application was deplyed on the cloud and is avaliable to view [here](https://iotdashboard--hdhsim2.icyplant-7192f703.australiaeast.azurecontainerapps.io/)
+
+To run the dashboard client for this application
+
+```bash
+  docker build -t iot-dashboard
+  docker run -p 8501:8501 iot-dashboard
+```
+
+
+
 ## Bugs
 Not Applicable 
 
